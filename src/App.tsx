@@ -26,7 +26,7 @@ export function App() {
   return (
     <div className="h-screen flex flex-col">
       {/* Header section */}
-      <div className="flex p-2 bg-sky-600">
+      <div className="flex p-2 bg-sky-300">
         <div className="flex-grow">
           <h1 className="font-bold text-2xl text-white sm:text-center">
             {getTitle()}
@@ -35,10 +35,10 @@ export function App() {
         {/* Navigation for small screens */}
         <div className="block sm:hidden flex">
           <ul className="list-none flex">
-            <li className="border-b p-1 link-active">
+            <li className=" p-1 link-active">
               <NavLink to="/" className='p-2'>Contact</NavLink>
             </li>
-            <li className="border-b p-1 link-active">
+            <li className=" p-1 link-active">
               <NavLink to="/chart-map">Chart and Maps</NavLink>
             </li>
           </ul>
