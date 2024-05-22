@@ -35,10 +35,10 @@ export function App() {
         {/* Navigation for small screens */}
         <div className="block sm:hidden flex">
           <ul className="list-none flex">
-            <li className="border-b p-1 link-active">
+            <li className="p-1 link-active">
               <NavLink to="/" className='p-2'>Contact</NavLink>
             </li>
-            <li className="border-b p-1 link-active">
+            <li className=" p-1 link-active">
               <NavLink to="/chart-map">Chart and Maps</NavLink>
             </li>
           </ul>
