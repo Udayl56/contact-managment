@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# Contact Management with Chart And Map
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Demo : [https://contact-managment-5qj0p5s43-uday-ladhi.vercel.app/]
 
-Currently, two official plugins are available:
+## Features
+`Add, Edit, Update contact`
+`Line Chart of covid-19 Diseases`
+`Map for Viewing country specific covid-19 patients data`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation 
 
-## Expanding the ESLint configuration
+Iy you want to run locally on your machine, clone this repo
+` git clone `
+` npm i `
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Pakages used
+1. react-router-dom
+2. react query
+3. redux, redux-toolkit
+4. react-leaflet
+5. axios
+6. chart js
+7. react popup
+ 
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
